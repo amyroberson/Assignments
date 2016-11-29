@@ -102,8 +102,48 @@ import Foundation
 //Decimal to Octal
 //663241 divided by 8 = 82905 with a remainder of 1
 //82905 divided by 8 = 10905 with a remainder of 1
+//10905 divided by 8 = 1295 with a remainder of 3
+//1295 divided by 8 = 161 with a remainder of 7
+//161 divided by 8 = 20 with a remainder of 1
+//20 divided by 8 = 2 with a remainder of 4
+//2 divided by 8 = 0 with a remainder of 2
+
+//Put the remainders together starting from the bottom 2417311 = 663241 in Octal
+
+//Decimal to Hexadecimal
+//663241 divided by 16 = 41452 with a remainder of 9
+//41452 divided by 16 = 2590 with a remainder of 12
+//2590 divided by 16 = 161 with a remainder of 14
+//161 divided by 16 = 10 with a remainder of 1
+//10 divided by 16 = 0 with a remainder of 10
+
+//Put the remainders together starting from the bottom with conversions for a-f
+//10 = A, 12 = C 14 = E in Hexadecimal A1EC9 = 663241 in Hexadecimal
 
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+// Hexadecimal to Decimal
+// One's Column: 16^0 * 1 = 1
+// Ten's Column: 16^1 * 3 = 48
+// Hundred's Column: 16^ 2 * A = 2560
+// Thousand's Column: 16^3 * 4 = 6384
+// Ten Thousand's Column: 16^4 * 1 = 65534
+// Add all sums so,14A31 = 84529 in Decimal
 
+//Hexidecimal to Binary
+//  1   -  4   -   A  -  3  -  1
+// 0001 - 0100 - 0100 - 0011 - 0001
+// 14A31 in Binary 0001 0100 0100 0011 0001
 
+// Hexadecimal to Decimal
+// One's Column: 16^0 * F = 15
+// Ten's Column: 16^1 * F = 240
+// Hundred's Column: 16^2 * F = 3849
+// Thousand's Column: 16^3 * F = 61440
+// Add all sums so,FFFF = 65535 in Decimal
+
+//Hexidecimal to Binary
+//  F  -   F   -  F -     F
+// 1111 - 1111 - 1111 - 1111
+// FFFF in Binary is 1111 1111 1111 1111
